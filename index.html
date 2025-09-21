@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>بطاقة VIP الفاخرة</title>
+
+        <!-- Google Fonts - خطوط عربية فاخرة -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Scheherazade+New:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+        <!-- Font Awesome - أيقونات احترافية -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+        <!-- CSS الرئيسي -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!-- نافذة البداية (Splash Screen) -->
+<div id="splash-screen">
+    <div class="splash-content">
+        <img src="LOGO.jpg" alt="صورة أسطورية" class="splash-profile">
+        <h1 class="splash-title"> 
+            <span>  Cham Alnassim Pour Les Publicites</span>
+        </h1>
+        <button class="splash-btn" onclick="enterSite()">  Commencer </button>
+    </div>
+</div>
+
+        <!-- خلفية الصفحة -->
+        <div class="background-overlay"></div>
+        <div class="background-pattern"></div>
+
+        <!-- زر تبديل الوضع الليلي -->
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- المحتوى الرئيسي -->
+        <main class="main-content">
+            <!-- بطاقة VIP الفاخرة -->
+            <div class="vip-card">
+                <!-- تاج VIP -->
+                <div class="vip-crown">
+
+                    <span class="vip-badge">VIP</span>
+                </div>
+
+                <!-- صورة الخلفية -->
+                <div class="card-background">
+                    <img src="BG.jpg" alt="خلفية فاخرة">
+                </div>
+
+                <div class="card-content">
+                    <div class="profile-section">
+                        <div class="profile-image-container">
+                            <div class="profile-frame">
+                                <img src="LOGO.jpg" alt="صورة الملف الشخصي">
+                                <div class="profile-glow"></div>
+                            </div>
+                        </div>
+
+                        <div class="profile-info">
+                            <h1 class="vip-name"> شم النسيم للدعاية والإعلان
+                            </h1>
+                            <h2 class="vip-title"> Cham Alnassim Pour Les Publicites
+                            </h2>
+                            
+                            <div class="vip-status">
+                                <i class="fas fa-crown"></i>
+                                <span>Chiffres Importants VIP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Téléphone</span>
+
+                                    <span class="contact-value LTR"> +23566277599
+                                         </span>
+                                   
+                                    <style>.LTR{direction: ltr;}</style>
+                                </div>
+                            </div>
+                           
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">E-mail
+                                        </span>
+                                    <span
+                                        class="contact-value">cham_alnassim@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Situation  </span>
+                                    <span class="contact-value"> Tchad N'Djamena, 40e Rue, en face de la boulangerie Hiba
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                 
+                <div class="social-section">
+                    <h3>تواصل معي</h3>
+                    <div class="social-links">
+                        <a href="https://wa.me/23566571490" class="social-link whatsapp"  ">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>واتساب</span>
+                        </a>
+                        <a href="https://wa.me/23566571490" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>إنستغرام</span>
+                        </a>
+                        <a href="https://wa.me/23566571490" class="social-link twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>تويتر</span>
+                        </a>
+                        <a href="https://wa.me/23566571490" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            <span>لينكد إن</span>
+                        </a>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+            <div class="vip-card">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.27451796454486!2d15.063264194300933!3d12.128159604121153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11196344f6dbfc51%3A0x188fa73d3e39cb4f!2z2LTZhSDYp9mE2YbYs9mK2YUg2YTZhNiv2LnYp9mK2Kk!5e1!3m2!1sar!2std!4v1758391810236!5m2!1sar!2std"
+                    width="100%" height="450" style="border:0;" allowfullscreen
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
+            </div>
+            <!-- معلومات VIP -->
+            <div class="vip-info">
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Conception Graphique</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="vip-services">
+                            <li><i class="fas fa-check"></i> Création de logos et d’identités visuelles complètes.</li>
+                            <li><i class="fas fa-check"></i>Conception de brochures et catalogues professionnels. </li>
+                            <li><i class="fas fa-check"></i> Conception d’affiches et panneaux publicitaires.</li>
+                            <li><i class="fas fa-check"></i>Design d’emballages et d’étiquettes de produits. </li>
+                            <li><i class="fas fa-check"></i>Conception d’invitations et cartes d’événements. </li>
+                            <li><i class="fas fa-check"></i> Création de présentations (PowerPoint/Keynote).</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Impression</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="vip-services">
+                            <li><i class="fas fa-check"></i>Impression de cartes de visite haut de gamme. </li>
+                            <li><i class="fas fa-check"></i> Impression de brochures et catalogues.</li>
+                            <li><i class="fas fa-check"></i> Impression d’affiches et posters.</li>
+                            <li><i class="fas fa-check"></i> Impression de factures et documents officiels.</li>
+                            <li><i class="fas fa-check"></i>Impression d’autocollants et d’étiquettes produits. </li>
+                            <li><i class="fas fa-check"></i>Impression sur sacs en papier et plastique. </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Publicité & Communication</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="vip-services">
+                            <li><i class="fas fa-check"></i> Conception et réalisation de campagnes publicitaires complètes.</li>
+                            <li><i class="fas fa-check"></i>Publicité sur les réseaux sociaux (Facebook, Instagram, TikTok). </li>
+                            <li><i class="fas fa-check"></i> Gestion des pages et comptes de réseaux sociaux.</li>
+                            <li><i class="fas fa-check"></i>Rédaction de contenus publicitaires et marketing. </li>
+                            <li><i class="fas fa-check"></i>Photographie et vidéos publicitaires. </li>
+                            <li><i class="fas fa-check"></i> Configuration et gestion de publicités sponsorisées.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Objets Publicitaires & Cadeaux</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="vip-services">
+                            <li><i class="fas fa-check"></i> T-shirts personnalisés imprimés.</li>
+                            <li><i class="fas fa-check"></i>Impression sur tasses et objets cadeaux. </li>
+                            <li><i class="fas fa-check"></i> Roll-up et banderoles publicitaires.</li>
+                            <li><i class="fas fa-check"></i> Calendriers et horloges murales/bureau.</li>
+                            <li><i class="fas fa-check"></i>Tampons et sacs publicitaires. </li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Services Numériques</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="vip-services">
+                            <li><i class="fas fa-check"></i> Création de sites web.</li>
+                            <li><i class="fas fa-check"></i> Conception d’interfaces d’applications.</li>
+                            <li><i class="fas fa-check"></i> Création de contenus digitaux (motion design – vidéos courtes).</li>
+                            <li><i class="fas fa-check"></i> Retouche photo et traitement graphique.</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="fas fa-clock"></i>
+                        <h3>Heures De Travail</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="working-hours">
+                            <div class="time-slot">
+                                <span class="days"> À temps Plein</span>
+                                <span class="time"> Toujours ouvert</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Navbar التفاعلي الجديد -->
+        <nav class="luxury-navbar">
+            <div class="navbar-container">
+                <!-- زر الهاتف (بارز) -->
+                <a href="tel:+23566277599">
+                    <button class="nav-btn primary-btn phone-btn" >
+                        <i class="fas fa-phone"></i>
+                        <span>Airtel</span>
+                    </button>
+                </a>
+                <a href="tel:+23566277599">
+                    <button class="nav-btn primary-btn phone-btn" >
+                        <i class="fas fa-phone"></i>
+                        <span>Tigo</span>
+                    </button>
+                </a>
+                <a href="https://wa.me/23566277599">
+                    <!-- زر WhatsApp (بارز) -->
+                    <button class="nav-btn primary-btn whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </button>
+                </a>
+
+                <!-- زر الخريطة -->
+                <a href="https://maps.app.goo.gl/ssgARnKRcetyjJy57">
+                    <button class="nav-btn secondary-btn map-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Situation  </span>
+                    </button>
+                </a>
+                <!-- زر TikTok -->
+                <a href="https://www.tiktok.com/@chamal_nassim">
+                    <button class="nav-btn secondary-btn tiktok-btn">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </button>
+                </a>
+
+                <!-- زر QR Code -->
+                <button class="nav-btn secondary-btn qr-btn">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- زر الحفظ العائم -->
+      
+        <button class="floating-save-btn" onclick="captureAndSave()">
+    <i class="fas fa-camera"></i>
+    <span>التقط وحفظ</span>
+</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+
+        <!-- Modal للـ QR Code -->
+        <div id="qrModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeQRModal()">&times;</span>
+                <div class="modal-header">
+                    <i class="fas fa-qrcode"></i>
+                    <h3>رمز الاستجابة السريعة</h3>
+                </div>
+                <div class="qr-code">
+                    <img
+                        src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://example.com/contact"
+                        alt="QR Code">
+                </div>
+                <p>امسح الرمز لحفظ البطاقة</p>
+            </div>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
